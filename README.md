@@ -1,6 +1,6 @@
 # Deep Dive into Chrome Built-in AI: Prompt API
 
-![Chrome AI Logo](https://tyingshoelaces.com/_next/image?url=https%3A%2F%2Ftyingshoelaces.com%2F2Frobotwithexplodinghead.jpg&w=3840&q=75)
+![image](https://github.com/Ejb503/chrome-ai-prompt-api/assets/4939114/b372c0fd-3237-46fa-9e8f-b2ec3d5057a1)
 
 _By [tyingshoelaces.com](https://tyingshoelaces.com)_
 
