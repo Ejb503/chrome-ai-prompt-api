@@ -1,6 +1,6 @@
 # Deep Dive into Chrome Built-in AI: Prompt API
 
-![Chrome AI Logo](https://tyingshoelaces.com/_next/image?url=https%3A%2F%2Ftyingshoelaces.com%2Flipstickonapigtyingshoes.jpg&w=3840&q=75)
+![Chrome AI Logo](https://tyingshoelaces.com/_next/image?url=https%3A%2F%2Ftyingshoelaces.com%2F2Frobotwithexplodinghead.jpg&w=3840&q=75)
 
 _By [tyingshoelaces.com](https://tyingshoelaces.com)_
 
@@ -10,11 +10,9 @@ _By [tyingshoelaces.com](https://tyingshoelaces.com)_
 
 I’ve recently got invited into the early preview program for the Chrome Built-in AI (Prompt API). The built-in AI is exploratory work for what will potentially become a cross-browser standard for embedded AI. It leverages Gemini Nano on device; that means it is bundled into your web browser and the LLM generation happens in your local browser environment.
 
-Read more about it from Google [here](#).
-
 This repo is extremely WIP and demonstration prototype code to investigate ways that Prompt API could be used. It will ONLY work on Chrome Browsers with Gemini installed. It DOES not work on mobiles and is almost entirely theoretical.
 
-Read the full blog here:
+Read the full blog here: [here](https://tyingshoelaces.com/blog/chrome-ai-prompt-api).
 
 ## The Good: The Easy, the Fast, and the Free
 
@@ -120,10 +118,7 @@ I built a demo where you can experience a browser-controlled voice interaction:
 
 ## Links
 
-- **Demo:** [AI Voice Generation Demo](https://tyingshoelaces.com/demo/ai-voice-generation)
-- **GitHub Repository:** [GitHub](https://github.com/Ejb503/ai-voice-generation)
-- **Video:** [YouTube Video](https://youtu.be/3zPeOpOEmyQ)
-- **Blog:** [Blog Post](https://tyingshoelaces.com/blog/ai-voice-generation)
+- **Blog:** [Blog Post](https://tyingshoelaces.com/blog/chrome-ai-prompt-api)
 
 ---
 

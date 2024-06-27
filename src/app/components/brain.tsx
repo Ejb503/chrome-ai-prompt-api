@@ -8,6 +8,7 @@ import usePersonalData from "../hooks/usePersonalData";
 import useProductCues from "../hooks/useProductCues";
 import useSocialCues from "../hooks/useSocialCues";
 import useUserCues from "../hooks/useUserCues";
+import { products } from "../const/product";
 
 interface TranscriptHistory {
   [key: string]: { transcript: string; type: string };
@@ -57,6 +58,12 @@ const Brain: React.FC = () => {
       );
       console.log("Action", action);
       addTranscript(JSON.stringify(action), "JSON COMMAND");
+      const lookup = products.find(
+        (product) => product.brand === action!.brand
+      );
+      if (lookup) {
+        window.location.href = `/product/${lookup?.path}`;
+      }
     } catch (e) {
       console.error("Error executing AI agent:", e);
     }
